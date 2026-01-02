@@ -36,29 +36,3 @@ print(age2)
 '''
 print(type(name))
 print(type(age))
-
-'''
-data types
-          integer   +ve, -ve, 0  values (int)
-          string     sentence, words, and we can use double , single, and triple quotes
-          float    decimal values
-          boolean   only two values (True and False) age = 19
-                   The old variable is boolean type      old = False
-                   used Capital T for True and Capital F for False
-          None    a= None (no value store in this)used Capital N for None
-'''
-
-name1= 'MN'
-name2= "MF"
-name3='"MN"'
-print(name1)
-print(name2)
-print(name3)
-
-age= 20
-old= False
-a= None
-print(type(age))
-print(type(old))
-
-
