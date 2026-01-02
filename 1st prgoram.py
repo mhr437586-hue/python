@@ -23,6 +23,42 @@ print(name)
 print(age)
 print("My name is:", name)
 print("My age is :",age)
+age2=age
+print(age2)
+'''
+    identifiers are also a name, no, and underscores
+    cannot use % @ $ these kinds of symbols in identifiers
+    digits cannot be at first
+    1 variable,   this is not correct
+    variable 1=  this is correct
+    identifiers can be of any length
+    names of variables are short, simple, and meaningful
+'''
+print(type(name))
+print(type(age))
 
+'''
+data types
+          integer   +ve, -ve, 0  values (int)
+          string     sentence, words, and we can use double , single, and triple quotes
+          float    decimal values
+          boolean   only two values (True and False) age = 19
+                   The old variable is boolean type      old = False
+                   used Capital T for True and Capital F for False
+          None    a= None (no value store in this)used Capital N for None
+'''
+
+name1= 'MN'
+name2= "MF"
+name3='"MN"'
+print(name1)
+print(name2)
+print(name3)
+
+age= 20
+old= False
+a= None
+print(type(age))
+print(type(old))
 
 
