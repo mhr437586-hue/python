@@ -1,0 +1,78 @@
+#Types
+# Types 1-Conversion(automatically kar deta ha change data type) 2-Casting(manually change the data type )
+# type conversion
+a=2
+b=4.25
+sum=a+b
+print(sum)
+'''
+a="2" #string is not allowed to add to a floating value
+b=4.25
+sum=a+b
+print(sum) #error string is not allowed to add in a floating value
+'''
+# Type Casting
+a=int("2")
+b=4.25
+print(type(a))
+sum=a+b
+print(sum)
+
+a=float("2")
+b=4.25
+print(type(a))
+sum=a+b
+print(sum)
+
+'''
+a=float("Mehak") #characters string cannot be added in a float
+b=4.25
+print(type(a))
+sum=a+b
+print(sum)#error
+'''
+
+a=3.14
+a=str(a)
+print(type(a))
+
+#how to input
+#input("Enter your name:")
+
+name= input("Enter your name:")
+print("Welcome", name)
+
+name= input("Enter your age:")
+print("you entered",name)
+#result of input statement is always in string
+
+val= input("Enter some value:")
+print(type(val),val)
+
+val= (int(input("Enter some value:")))
+print(type(val),val)
+
+val= (float(input("Enter some value:")))
+print(type(val),val)
+
+name=input("enter name")
+age=input("enter age")
+marks=input("enter marks")
+
+print("Welcome", name)
+print("your age=",age)
+print("marks=", marks)
+
+name=input("enter name")
+age=int(input("enter age"))
+marks=float(input("enter marks"))
+
+print("Welcome", name)
+print("your age=",age)
+print("marks=", marks)
+
+First Program
+a=int(input("Enter first:"))
+b=int(input("Enter second:"))
+sum=a+b
+print(sum)
