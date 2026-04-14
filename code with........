@@ -37,6 +37,18 @@ engine.runAndWait()
 
 PROBLEM NO: 4
 
+import os
+
+# specify directory path (you can change this)
+path = "."
+
+# get list of files and directories
+contents = os.listdir(path)
+
+# print each item
+for item in contents:
+    print(item)
+
 
 
 
