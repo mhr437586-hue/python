@@ -1,0 +1,42 @@
+
+Problem no: 1
+
+a = 2
+b = 3
+print(a+b)
+
+
+Problem no: 2
+
+a = 35
+b = 4
+print("Remainder when a is divided by b is :", a%b)
+
+
+Problem no: 3
+
+a = input ("Enter number a is ")
+
+print (type(a))
+
+Problem no: 4
+
+a = int (input("Enter number 1 is :"))
+b = int (input("Enter number 2 is :"))
+
+print("a is greater than b", a>b)
+              Answer is false
+
+
+Problem no: 5
+
+a = int (input("Enter number 1 is :"))
+b = int (input("Enter number 2 is :"))
+
+print ("the average of two number is :", (a+b)/2)
+
+a = int (input("Enter  your number  is :"))
+
+print ("the square number is :", a*a)
+# print ("the square number is :", a**2) a to the  power
+
