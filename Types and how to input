@@ -34,13 +34,54 @@ print(sum)#error
 
 a=3.14
 a=str(a)
-print(type(a))
+print(type(a))   answr is string
+
+a="3.14"
+b = float (a) 
+t = type (b)
+print(t)       answer is float
+
 
 #how to input
 #input("Enter your name:")
 
 name= input("Enter your name:")
 print("Welcome", name)
+
+a = input("enter number 1 :")
+
+b = input("enter number 2 :")
+
+print("number a is:",a)
+print("number b is:",b)
+
+print("sum is ", a+b)        
+  output: 
+                  enter number 1 :1
+                  enter number 2 :2
+                  number a is: 1
+                  number b is: 2
+                  sum is  12  (this is not a correct answer)
+.
+Add int 
+
+a = int (input("enter number 1 :"))
+
+b = int (input("enter number 2 :"))
+
+print("number a is:",a)
+print("number b is:",b)
+
+print("sum is ", a+b)
+
+output:
+enter number 1 :1
+enter number 2 :2
+number a is: 1
+number b is: 2
+sum is  12
+
+
 
 name= input("Enter your age:")
 print("you entered",name)
