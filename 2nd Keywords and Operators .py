@@ -112,6 +112,13 @@ print("False or True is ", False or True)
 print("True or False is ", True or False)
 print("False or False is ", False or False)
 
+ output:
+          True or False is  True
+          True or True is  True
+          False or True is  True
+          True or False is  True
+          False or False is  False         
+
 #truth table of 'and'
 print("True and False is ", True and False)
 print("True and True is ", True and True)
@@ -119,10 +126,15 @@ print("False and True is ", False and True)
 print("True and False is ", True and False)
 print("False and False is ", False and False)
 
+   output:
+          True and False is  False
+          True and True is  True
+          False and True is  False
+          True and False is  False
+          False and False is  False
+
 print(not(False))  # answer in true
 print(not(True))   # answer in false
-
-
 
 
 
