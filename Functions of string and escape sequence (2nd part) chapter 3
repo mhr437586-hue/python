@@ -129,4 +129,56 @@ text = "Hello"
 
 ESCAPE SEQUENCE CHARACTER:
 
-            
+a = "Fethi is a good girl\nbut not a bad girl"   #(\n for new line)
+
+print(a)
+
+a = "Fethi is a good girl\nbut not a bad \"girl\""    #(\"  \" for double quotes)
+
+print(a)
+
+a = 'Fethi is a good girl\nbut not a bad \"girl\"'
+
+a = 'Fethi is a good girl\nbut not a bad \'girl\''
+
+print(a)
+
+
+Here are some commonly used escape sequence characters in Python:
+
+Escape Sequence	Meaning
+\n	               New line
+\t	               Tab space
+\\	               Backslash (\)
+\'	               Single quote
+\"	               Double quote
+\r	               Carriage return
+\b	               Backspace
+\f	               Form feed
+\v	               Vertical tab
+
+
+# New line
+print("Hello\nWorld")
+
+# Tab space
+print("Hello\tWorld")
+
+# Single and double quotes
+print('It\'s Python')
+print("She said \"Hi\"")
+
+# Backslash
+print("C:\\Users\\Mehak")
+
+
+OUTPUT:
+      Hello
+      World
+
+      Hello    World
+
+      It's Python
+      She said "Hi"
+      C:\Users\Mehak
+
