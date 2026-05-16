@@ -1,0 +1,89 @@
+
+String is a data type in Python
+A string is a sequence of characters enclosed in quotes
+We can write a string in 3 ways:
+    name = "Fethi"      # Double quote
+    name = 'Fethi'      # single quote 
+    name = '''Fethi'''  # triple quote 
+
+STRING SLICING:
+           A String in  Python can be sliced to get parts of a string
+              String is immutable  # you cannot change your string (Particular character)
+
+ F  E  T  H  I
+ 0  1  2  3  4
+-5 -4 -3 -2 -1
+
+name = "Fethi"
+
+nameshort = name[0:3] # start from index 0 all the way till 3 (excluding 3)
+
+print(nameshort)
+
+output:
+     Fet
+
+name = "Fethi"
+
+nameshort = name[0:3] # start from index 0 all the way till 3 (excluding 3)
+
+print(nameshort)
+
+character1 = name[1]
+print(character1)
+
+output:
+     Fet   and   e
+
+name="Mehak"
+print(name[0:3])
+output:
+     Meh
+
+Negative Slicing:
+
+ M  e  h  a  k 
+ 0  1  2  3  4
+-5 -4 -3 -2 -1
+
+name="Mehak"
+
+print(name[0:3])
+
+print(name[-4:-1])
+                    convert negative into positive
+print(name[1:4])
+
+
+output:
+       Meh
+       eha
+       eha
+
+ print(name[:4])  # is same as (name[0:4])  The first empty space with colons means 0
+ print(name[1:])  # is same as (name[1:4])  The last empty space with colons means 4
+
+
+Slicing With Skip Value:
+               (in terminal)
+ a = "0123456789"
+a[1:7:3] (last wala 3 
+
+output:
+     '14'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
