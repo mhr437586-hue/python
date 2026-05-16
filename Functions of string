@@ -1,0 +1,132 @@
+Functions of string
+     1: LENTGTH
+           name = "Fatima"
+
+           print(len(name))
+OUTPUT:
+        6
+
+ 2: STRING ENDS WITHH:
+          name = "Fatima"
+
+        print(name.endswith("ima"))
+OUTPUT:
+      TRUE
+
+       name = "Fatima"
+
+       print(name.startswith("Fat"))
+OUTPUT:
+      TRUE
+
+        name = "fatima"
+
+        print(name.capitalize())
+OUTPUT:
+      Fatima
+
+ 3: String.count
+
+ 4: String.find
+
+ 4: String.replace
+
+
+
+
+1. Case Conversion Methods
+     
+           upper() → Converts to uppercase
+           lower() → Converts to lowercase
+           title() → Capitalizes first letter of each word
+           capitalize() → Capitalizes first character
+
+text = "hello world"
+
+         print(text.upper())       # HELLO WORLD
+         print(text.lower())       # hello world
+         print(text.title())       # Hello World
+         print(text.capitalize())  # Hello world
+
+ 2. Trimming / Removing Spaces
+
+           strip() → Removes spaces from both sides
+           lstrip() → Removes left spaces
+           rstrip() → Removes right spaces
+
+text = "  hello  "
+
+        print(text.strip())   # "hello"
+
+3. Searching & Checking
+
+          find() → Returns index of substring
+          index() → Same as find but raises error if not found
+          startswith() → Checks prefix
+           endswith() → Checks suffix
+
+text = "python programming"
+
+         print(text.find("pro"))        # 7          print(text.startswith("py"))   # True
+
+4. Replacing & Modifying
+
+           replace(old, new) → Replace substring
+           split() → Split into list
+           join() → Join list into string
+           text = "I like Java"
+
+         print(text.replace("Java", "Python"))  # I like Python
+
+words = "a,b,c"
+
+        print(words.split(","))  # ['a', 'b', 'c']
+
+        print("-".join(['a', 'b', 'c']))  # a-b-c
+
+5. Checking String Content
+
+         isalpha() → Only letters
+         isdigit() → Only digits
+         isalnum() → Letters + digits
+         isspace() → Only whitespace
+
+      print("abc".isalpha())   # True
+
+      print("123".isdigit())   # True
+
+      print("abc123".isalnum()) # True
+
+6. Formatting Strings
+
+         format() → Format values
+        f-strings (modern and preferred)
+
+name = "John"
+age = 25
+
+      print("My name is {} and I am {}".format(name, age))
+      print(f"My name is {name} and I am {age}")
+
+7. Counting & Length
+
+      len() → Length of string
+      count() → Count occurrences
+
+text = "banana"
+
+       print(len(text))        # 6
+       print(text.count("a"))  # 3
+
+8. Changing Case Style
+
+         swapcase() → Upper ↔ lower
+         casefold() → Strong lowercase (for comparisons)
+
+text = "Hello"
+           print(text.swapcase())  # hELLO
+
+
+ESCAPE SEQUENCE CHARACTER:
+
+            
