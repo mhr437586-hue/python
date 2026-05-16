@@ -67,14 +67,18 @@ output:
 Slicing With Skip Value:
                (in terminal)
  a = "0123456789"
-a[1:7:3] (last wala 3 
+a[1:7:3] (last wala 3 is lia ka itni values skip ho)
 
 output:
      '14'
 
+"abcdefghijklmnopqrstuvwxyz"
+b="abcdefghijklmnopqrstuvwxyz".
 
+b[1:9:4]
 
-
+output:
+'bf'
 
 
 
